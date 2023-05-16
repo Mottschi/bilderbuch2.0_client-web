@@ -1,0 +1,33 @@
+.SignUp form {
+    display: flex;
+    flex-direction: column;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
+    border-radius: 10px;
+    padding: 1rem;
+
+    color: white;
+}
+
+.SignUp form a {
+    text-decoration: none;
+    color: white;
+}
+
+.SignUp form a:hover {
+    text-decoration: underline;
+}
+
+.SignUp form > div {
+    margin: 5px 0;
+}
+
+.SignUp form label {
+    width: 16ch;
+    text-align: left;
+}
